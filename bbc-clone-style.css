@@ -1,0 +1,429 @@
+        
+
+        
+
+
+        body {  
+            margin: 0;
+            padding: 0;  
+        }
+        
+        a:visited {
+            color: black;
+        }
+        
+        #top-menu {
+            width: 1440px;
+            height: 40.5167; 
+        }
+        
+        .big-divs {
+            width: 200px;
+            height: 40.5167px;  
+            float: left;
+            border-right: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+        }
+        
+        #sign-in-box {
+            width: 226px;
+            height: 40.5167px;   
+            float: left;
+            border-right: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+        }
+        
+        #bell-box {
+            width: 51px;
+            height: 40.5167px;
+            position: relative;
+            left: 170px;
+            top: -53px;
+            box-sizing: border-box;
+        }
+        
+        #odd-line {
+            width: 26%;
+            height:100%;
+            box-sizing: border-box;            
+        }
+        
+        #bell-logo {
+            width: 18px;
+            height: 18px;
+            position: absolute;
+            left: 21px;
+            bottom: 10px;
+        }
+        
+        .divs { 
+            width: 87.5px;
+            height: 40.5167px;   
+            float: left;
+            border-right: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+        }
+        
+        #logo {
+            float: right;
+            position: relative;
+            right: 20px;
+            top: 8px;  
+        }
+        
+        #sign-in-button {
+            width: 60px;
+            height: 20px;
+            position: relative;
+            left: 43px;
+            top: -18.5px;
+            font-family: sans-serif;
+            font-weight: bold;
+            font-size: 82%;
+            color: #333;
+        }
+        
+        #sign-in-logo {
+            width: 28px;
+            height: 28px;
+            position: relative;
+            left: 10px;
+            top: 8px;
+            box-sizing: border-box;
+        }
+        
+        .paragraphs {
+            font-family: sans-serif;
+            font-weight: bold;
+            font-size: 82%;
+            color: #333;
+            text-align: center;
+            line-height: 18px;
+            margin:  13px;
+        }
+        
+        .paragraphs1 {
+            font-family: sans-serif;
+            font-weight: bold;
+            font-size: 87%;
+            color: #333;
+            padding: 0px 0px 0px 35px;
+            margin:  13px;
+        }  
+        
+        button {
+            background: transparent;
+            border: none;
+            outline: none;
+            vertical-align: middle;
+            width: 32px;
+            height: 24px;
+        }
+        
+        .news-banner {
+            width: 1440px;
+            height: 56px;
+            float: left;
+            background-color: #BB1919;
+        }
+        
+        .inner-banner {
+            width: 1256px;
+            height: 25px;
+            margin: auto;
+        }
+        
+        .menu-banner {
+            width: 1440px;
+            height: 40.5167px;   
+            float: left;
+            background-color: #BB1919;
+        }
+        
+        .banner-divs {
+            float: left;
+            border-right: 1px solid #a56666;
+        }
+        
+        #news {
+            font-family: 'Nunito Sans', sans-serif;
+            font-weight: bold;
+            font-size: 250%;
+            color: #FFFFFF;
+            padding: 0px 0px 0px 93px;
+            margin:  auto;
+        }
+        
+        .style-fonts-banner {
+            font-family: sans-serif;
+            font-weight:normal;
+            font-size: 82%;
+            color: #FFFFFF;
+            text-align: center;
+            margin:  13px;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        .inner-tech {
+            width: 1440px;
+            height: 88.5px;
+            float: left;
+            padding-left: 95px;
+        }
+        
+        #technology {
+            font-family: sans-serif;
+            font-weight:normal;
+            font-size: 130%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            color: #404040;
+            border-bottom: 3px solid #BB1919;
+            padding-bottom: 2px;
+            display: inline-block;
+        }
+        
+        .news-block {
+            width: 1264px;
+            height: 607.2px;
+            margin: auto; 
+        }
+        
+        .news-contents {
+            width: 1264px;
+            height: 606.367px;
+            margin: auto;
+            clear: both;
+        }
+        
+        .fit-img {
+            max-width: 100%;
+            max-height: 100%;
+            box-sizing: border-box;
+        }
+        
+        .news-fitting {
+            float: left;
+        }
+        
+        .main-news {
+            width: 505.6px;
+            height: 275.4px;
+            padding-left: 16px;
+            box-sizing: border-box;
+        }
+        
+        .titles {
+            font-family: sans-serif;
+            font-size: 1.75rem;
+            line-height: 2rem;
+            font-weight: 700;
+            letter-spacing: -.0625rem;
+            color: black;
+            padding-top: 16px;
+        }
+        
+        .titles:hover, .links:hover {
+            color: #1380A1;
+            text-decoration: underline;
+        }
+        
+        .news-description {
+            margin-top: 8px;
+            color: #5A5A5A;
+            font-family: sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: left;
+            box-sizing: border-box;
+        }
+        
+        .links {
+            color: black;
+            font-family: sans-serif;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        
+        .secondary-news {
+            width: 758.4px;
+            height: 606.367px;
+            box-sizing: border-box;
+            position: relative;
+            left: 505px;
+            bottom: 550.45px;
+        }
+        
+        .sub-divs {
+            width: 252.8px;
+            height: 303.183px;
+            padding-bottom: 16px;
+            box-sizing: border-box;
+        }
+        
+        .sec-1 {
+            width: 252.8px;
+            height: 133.2px;
+            padding-left: 16px;
+            box-sizing: border-box;
+        }
+        
+        .positioning-column-2 {
+            position: relative;
+            left: 252.8px;
+            top: -606.366px;
+            box-sizing: border-box;
+        }
+        
+        .positioning-column-3 {
+            position: relative;
+            left: 505.6px;
+            top: -1212.732px;
+            box-sizing: border-box;
+        }
+        
+        .sec-news-description {
+            width: 252.8px;
+            height: 148.483px;
+            padding-left: 16px;
+            margin-top: 8px;
+            box-sizing: border-box;
+        }
+        
+        .sec-news-titles {
+            font-family: sans-serif;
+            font-size: 16px;
+            line-height: 18px;
+            font-weight: 700;
+            letter-spacing: -.0100rem;
+            color: black;
+        }
+        
+        .list-inside {
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+        }
+        
+        .list-box {
+            width: 236.8px;
+            height:21.75px;
+            margin-top: 8px;
+            box-sizing: border-box;
+            padding-left: 16px;
+            position: relative;
+            top: -40px;
+        }
+        
+        .list-box-contents {
+            width: 55.1833px;
+            height:17px;
+            box-sizing: border-box;
+            border-right: 1px solid #dbdbdb;
+            position: relative;
+            top: 3px;            
+        }
+              
+        .link-technology {
+            width: 75px;
+            height:17px;
+            padding-left: 10px;
+            position: relative;
+            left: 55.1833px;
+            top: -12.75px;
+        }
+        
+        .listed-time {
+            color: #5A5A5A;
+            font-family: sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 19px;
+            vertical-align: middle;
+            box-sizing: border-box;
+        }
+        
+        .tech-link {
+            color: #222;
+            font-family: sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            vertical-align: middle;
+            box-sizing: border-box;
+
+        }
+        
+        * {
+            margin:0px;
+            padding:0px;
+        }
+
+        #header {
+            margin:auto;
+            width: 93.5px;
+            height: 40.5167px;  
+            float: left;
+            border-right: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+        }
+
+        ul, ol {
+            list-style:none;
+        }
+
+        .nav > li {
+            float:left;
+        }
+
+        .nav li a {
+            color:#fff;
+            text-decoration:none;
+            padding:13px 12px;
+            display:block;
+            font-family: sans-serif;
+            font-weight: bold;
+            font-size: 87%;
+            color: #333;
+            text-align: center;
+            line-height: 18px;
+        }
+
+        .nav li a:hover {
+            background-color:#434343;
+            color: #FFFFFF;
+            border-bottom: 3px solid #FFD230;
+        }
+
+        .nav li ul {
+            display:none;
+            position:absolute;
+            min-width:140px;	
+        }
+
+        .nav li:hover > ul {
+            display:block;
+        }
+
+        .nav li ul li {
+            position:relative;
+            float:left;
+        }
+
+        .search-box input {
+            margin: 8px 8px; 
+            width: 142px;
+            font-weight: bold;
+        }
+
+        .input[type="search"]:focus {
+            background: #eded url ('https://nav.files.bbci.co.uk/searchbox/8d701d9ddfac3cf2ef53d86ac7eda36c/img/gel-icon-search-dark.svg') no-repeat 1x center;
+            width: 130px; /*tamaño del boton buscar al hacer click*/
+            padding-left: 20px; /*espacio entre el icono lupa y el placeholder*/
+            color: #000;
+            background-color: #FFF;
+        }
